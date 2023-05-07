@@ -13,7 +13,7 @@ rvm:
 services:
   - mysql
   - postgresql
-env:
+env:   
   - DB=sqlite
   - DB=mysql
   - DB=postgresql
