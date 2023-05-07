@@ -2,7 +2,7 @@ appraise "rails-4-2" do
   group :mysql do
     gem "mysql2", "~> 0.4.0"
   end
-  group :postgresql do   
+  group :postgresql do     
     gem "pg", "~> 0.18.4"    
   end   
   group :test do
