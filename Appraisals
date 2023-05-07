@@ -4,7 +4,7 @@ appraise "rails-4-2" do
   end
   group :postgresql do   
     gem "pg", "~> 0.18.4"    
-  end
+  end   
   group :test do
     gem "test_after_commit", "~> 0.4.2"
   end    
