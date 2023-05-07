@@ -1,4 +1,4 @@
-appraise "rails-4-2" do   
+appraise "rails-4-2" do     
   group :mysql do
     gem "mysql2", "~> 0.4.0"
   end
