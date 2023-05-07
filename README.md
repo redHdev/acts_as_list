@@ -16,7 +16,7 @@ There are a couple of changes of behaviour from `0.8.0` onwards:
 - `acts_as_list` now copes with disparate position integers (i.e. gaps between the numbers). There has been a change in behaviour for the `higher_items` method. It now returns items with the first item in the collection being the closest item to the reference item, and the last item in the collection being the furthest from the reference item (a.k.a. the first item in the list). [#223](https://github.com/brendon/acts_as_list/pull/223)
 
 ## Installation
-
+    
 In your Gemfile:
 
     gem 'acts_as_list'
