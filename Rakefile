@@ -2,7 +2,7 @@ require "rubygems"
 require "bundler/setup"     
 Bundler::GemHelper.install_tasks
 
-require "rake/testtask"
+require "rake/testtask"    
 
 # Run the test with "rake" or "rake test"
 desc "Default: run acts_as_list unit tests."
